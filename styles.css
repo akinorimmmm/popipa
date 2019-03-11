@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+ul, a {
+  list-style-type: none;
+}
+
+body {
+  padding-top: 4rem;
+  margin: 0;
+}
+
+
+/* nav */
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 4.5rem;
+}
+
+.nav-item {
+  height: 100%;
+}
+
+.nav-link {
+  color: gray;
+  height: 100%;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,59,65,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.news-wrapper {
+  width: 100%;
+}
+
+.navbar-brand{
+  float: left;
+}
+
+/* carousel */
+
+.jumbotron {
+  background-size: cover;
+}
+
+#namuhati img {
+  width: 70vw;
+  height: auto;
+}
+
+#namuhakyuu img {
+  width: 37vw;
+  height: auto;
+  margin: 0 1vw;
+}
+
+
+/* card */
+#NEWS >h2 {
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+
+.card {
+  width: 42vw;
+}
+
+#NEWS1 >h2 {
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+
+#NEWS1 >.card {
+  margin: 0 auto;
+}
+
+.VIEW-MORE {
+  height: 20vh;
+  padding-top: 30px;
+}
+
+.VIEW-MORE a {
+    width: 33vw;
+    height: 5vh;
+    max-width: 240px;
+    max-height: 50px;
+}
+
+/* bottom-wrapper */
+
+.bottom-wrapper1 img {
+  width: 87vw;
+  height: 33vw;
+  margin: 10px 0 10px;
+}
+
+.bottom-wrapper2 {
+  background-size: cover;
+}
+
+.bottom-wrapper2 img {
+  width: 43vw;
+  display: inline-block;
+  margin: 0 5px 0;
+}
+
+/* footer */
+
+.fab {
+  padding: 0px 15px 0px 15px;
+  color: white;
+}
+
+
+.SHARE {
+  font-size: 23px;
+}
+
+#CONTACT {
+  font-size: 25px;
+}
